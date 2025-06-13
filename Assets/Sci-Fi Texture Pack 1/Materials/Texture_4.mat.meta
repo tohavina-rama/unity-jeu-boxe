@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: 4283a36cac30c364eb744bc838071691
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 23301
-  packageName: Sci-Fi Texture Pack 1
-  packageVersion: V2.0
-  assetPath: Assets/Sci-Fi Texture Pack 1/Materials/Texture_4.mat
-  uploadId: 161114
+version https://git-lfs.github.com/spec/v1
+oid sha256:17988a06ff49ef0d7b5893f990594cfff7b099ad29316306aa66df441f1a9654
+size 338
