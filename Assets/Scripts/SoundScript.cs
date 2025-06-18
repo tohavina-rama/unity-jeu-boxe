@@ -14,22 +14,8 @@ public class PunchSound : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0)) // clic gauche
-        {
-            // Frappe bras gauche
-            PlayPunchSound();
-        }
-
-        if (Input.GetMouseButtonDown(1)) // clic droit
-        {
-            // Frappe bras droit
-            PlayPunchSound();
-        }
-    }
-
-    void PlayPunchSound()
+    // This method will be called by an Animation Event
+    public void PlayPunchSound()
     {
         audioSource.PlayOneShot(punchSound);
     }
