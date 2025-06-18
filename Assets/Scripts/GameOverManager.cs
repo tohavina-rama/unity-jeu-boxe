@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
@@ -15,5 +15,5 @@ public class GameOverManager : MonoBehaviour
     {
         SceneManager.LoadScene("salleDeBoxe"); // Remplace par le nom exact de ta scène de jeu
     }
-}
+}*/
 
