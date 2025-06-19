@@ -54,7 +54,7 @@ public class BoxingRoundManager : MonoBehaviour
             timerText.text = "Timeleft: 0";
 
         // Lancer la scène "GameOver" après 2 secondes
-        Invoke("LoadGameOverScene", 2f);
+       // Invoke("LoadGameOverScene", 2f);
     }
 
     void LoadGameOverScene()
