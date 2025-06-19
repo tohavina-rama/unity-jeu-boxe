@@ -7,6 +7,7 @@ public class DoJab : MonoBehaviour
 public int wait = 50;
 public FistHitbox fist;
 
+
     private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,12 +23,14 @@ public FistHitbox fist;
         {
             animator.SetTrigger("RightJab");
            fist.isPunching = true;
+      
          
         }
         if (Input.GetMouseButtonDown(0)) 
         {
             animator.SetTrigger("LeftJab");
            fist.isPunching = true;
+      
         }
       
         if (Input.GetMouseButtonUp(0)) 

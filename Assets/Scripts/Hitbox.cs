@@ -12,7 +12,6 @@ public bool isPunching = false;
             other.GetComponent<PunchingBall>().ReactToHit(transform.position);
            // other.GetComponent<BoxBall>().ReactToHit(transform.position);
 
-            isPunching = false;
         }
     }
 }
